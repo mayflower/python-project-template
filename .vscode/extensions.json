@@ -2,8 +2,13 @@
   "recommendations": [
     "ms-python.python",
     "ms-python.debugpy",
+    "detachhead.basedpyright",
     "ms-python.mypy-type-checker",
     "charliermarsh.ruff",
-    "ms-toolsai.jupyter"
+    "ms-toolsai.jupyter",
+    "tamasfe.even-better-toml"
+  ],
+  "unwantedRecommendations": [
+    "ms-python.vscode-pylance"
   ]
 }

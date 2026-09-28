@@ -8,6 +8,8 @@ Code opens.
 - Python 3.14 (`.python-version`), managed by [uv](https://docs.astral.sh/uv/)
 - src layout: package `app` in `src/app`, tests in `tests/`
 - ruff (lint + format on save), mypy (strict), pytest with coverage
+- basedpyright as language server (Pylance is not available outside
+  Microsoft's VS Code), ipykernel for notebooks
 
 ## Commands
 
